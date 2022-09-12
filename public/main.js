@@ -32,7 +32,6 @@ function searchRepositories(repos) {
     const penultimateItem = fragments.pop();
     fragments.push(penultimateItem + lastItem);
   }
-  console.log(fragments);
   repos.forEach((repo) => {
     fragments.forEach((frag) => {
       if (repo.name.includes(frag)) {
@@ -78,7 +77,6 @@ function sortRepositories(repos) {
 function mountRepositories() {
   if (!repositories[0]) return;
 
-  console.log(repositories);
   let html = "";
 
   sortRepositories(
