@@ -3,8 +3,6 @@ const express = require("express");
 const fetchFromGithubGraphql = require("./controllers/get-repos");
 const app = express();
 
-require("dotenv").config();
-
 app.use(express.static(path.join(__dirname, "public")));
 
 app.get("/", (_req, res) => {
