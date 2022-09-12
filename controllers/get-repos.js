@@ -1,7 +1,11 @@
+const dotenv = require("dotenv").config();
 const axiosGitHubGraphQL = require("axios").default.create({
   baseURL: "https://api.github.com/graphql",
   headers: {
-    Authorization: `bearer ${process.env.GITHUB_PERSONAL_ACCESS_TOKEN}`,
+    Authorization: `bearer ${
+      dotenv?.parsed?.GITHUB_PERSONAL_ACCESS_TOKEN ||
+      process.env.GITHUB_PERSONAL_ACCESS_TOKEN
+    }`,
   },
 });
 
