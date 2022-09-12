@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "name": "my-github-repos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [
+    "Github",
+    "repos",
+    "repositories"
+  ],
+  "author": "diogoneves07",
+  "license": "ISC",
+  "description": "Search by my(diogoneves07) github repositories",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
