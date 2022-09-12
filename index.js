@@ -1,3 +1,5 @@
+/* Copyright (c) 2022 Diogo Neves*/
+
 const path = require("path");
 const express = require("express");
 const fetchFromGithubGraphql = require("./controllers/get-repos");

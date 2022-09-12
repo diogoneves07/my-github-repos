@@ -1,3 +1,5 @@
+/* Copyright (c) 2022 Diogo Neves*/
+
 const repositories = [];
 const repositoriesContainer = document.querySelector(".result-list");
 const repositoriesFilters = {
