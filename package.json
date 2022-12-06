@@ -12,7 +12,7 @@
     "repositories"
   ],
   "author": "diogoneves07",
-  "license": "ISC",
+  "license": "MIT",
   "description": "Search by my(diogoneves07) github repositories",
   "dependencies": {
     "axios": "^0.27.2",
